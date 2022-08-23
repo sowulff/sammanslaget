@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #e1caa4;
+  --red: #de3831;
+  --yellow: #f8ac49;
+  --pink: #ffb8b2;
+  --arrow: #000000;
+}
+section {
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.start {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.game {
+  background-color: green;
+  display: none;
+}
+.about {
+  background-color: grey;
+}
+
+.box-one {
+  clip-path: polygon(35% 18%, 76% 23%, 100% 100%, 0 99%, 0 9%);
+  background-color: var(--red);
+  width: 80%;
+  padding: 4rem;
+  position: relative;
+}
+.box-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.box-two {
+  clip-path: polygon(0 48%, 100% 7%, 100% 100%, 18% 99%);
+  background-color: var(--yellow);
+  width: 80%;
+  padding: 5.5rem;
+  margin-right: 0;
+  text-align: right;
+  position: absolute;
+  top: 14rem;
+}
+.box-three {
+  clip-path: polygon(42% 1%, 89% 6%, 100% 99%, 0 100%, 0 4%);
+  background-color: var(--pink);
+  width: 90%;
+  padding: 5rem;
+  margin-top: 16rem;
+  position: relative;
+}
+.arrow-button {
+  clip-path: polygon(
+    0 32%,
+    60% 24%,
+    60% 0%,
+    100% 48%,
+    60% 100%,
+    60% 74%,
+    0 67%
+  );
+  display: flex;
+  justify-content: center;
+  background-color: var(--arrow);
+  width: 20rem;
+  padding: 1.5rem;
+  transform: rotate(-25deg);
+  position: absolute;
+  right: 4.5rem;
+  top: 34rem;
+  /* animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate; */
+  /* animation-iteration-count: infinite; */
+  /* animation-play-state: running; */
+}
+.button-wrapper {
+  /* padding: 3rem; */
+}
+.start-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+  padding: 3rem 0;
+  font-size: 26px;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
