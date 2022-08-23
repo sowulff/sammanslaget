@@ -27,9 +27,6 @@ section {
   background-color: green;
   display: none;
 }
-.about {
-  background-color: grey;
-}
 
 .box-one {
   clip-path: polygon(35% 18%, 76% 23%, 100% 100%, 0 99%, 0 9%);
@@ -37,6 +34,7 @@ section {
   width: 80%;
   padding: 4rem;
   position: relative;
+  /* transform: translateX(-100%); */
 }
 .box-wrapper {
   display: flex;
@@ -50,7 +48,7 @@ section {
   margin-right: 0;
   text-align: right;
   position: absolute;
-  top: 14rem;
+  top: 14.5rem;
 }
 .box-three {
   clip-path: polygon(42% 1%, 89% 6%, 100% 99%, 0 100%, 0 4%);
@@ -99,12 +97,28 @@ section {
   padding: 3rem 0;
   font-size: 26px;
 }
-@keyframes stretch {
-  0% {
-    transform: scale(0.9);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+.bjork-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.bjork-info {
+  background-color: var(--yellow);
+  clip-path: polygon(5% 6%, 95% 0, 99% 100%, 0% 100%);
+  padding: 4rem;
+  width: 80%;
+  border-radius: 10px;
+}
+.card {
+  /* position: relative; */
+}
+.pink {
+  background-color: var(--pink);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+svg {
+  /* position: absolute; */
+  width: 20%;
 }

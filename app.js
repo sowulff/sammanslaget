@@ -1,11 +1,17 @@
-const button = document.querySelectorAll(".start-button");
+const button = document.getElementById("button");
 const game = document.getElementById("game");
 const start = document.getElementById("start");
 const about = document.getElementById("about");
-//sections
+const box = document.getElementById("box");
 
 function startGame() {
   //   start.style.display = "none";
   game.style.display = "block";
-  about.scrollIntoView();
+  //   about.scrollIntoView();
 }
+
+// {
+//   console.log("klick");
+//   button.style.transform = "translateX(10px)";
+//   leftItem.style.transform = "rotate(" + window.pageYOffset + "deg)";
+// });
