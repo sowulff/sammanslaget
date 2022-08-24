@@ -4,148 +4,178 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/arrow.css" />
+    <link rel="stylesheet" href="styles/game.css" />
+    <link rel="stylesheet" href="styles/start.css" />
     <title>Sammanslaget</title>
   </head>
   <body>
-    <section class="start" id="start">
-      <div class="box-one" id="box">
-        <h3>Visste du att</h3>
-        <p>
-          Mycket av de kläder vi i Sverige konsumerar slängs och förbränns. På
-          ett år köper<br />
-          Sveriges befolkning, per person, i snitt 13 kilo nya kläder och
-          textilier, varav 8 kilo<br />
-          hamnar i soporna.<br /><br />
-          För att tillverka kläder krävs en stor mängd vatten, kemikalier och
-          koldioxid. Det krävs ca 10 000<br />
-          vatten/kg för att odla bomull, i nästan alla steg i tillverkningen
-          används kemikalier, från bekämpningsmedel<br />
-          för att förhindra skadedjur till att bleka, färga och behandla tyger
-          till kemikalier i transport för att behandla<br />
-          mögel. Klimatpåverkan för en produkt är stor, framförallt om energin
-          som används i produktionen<br />
-          kommer från fossila källor, vilket oftast är fallet.
-        </p>
-      </div>
-      <div class="box-wrapper">
-        <div class="box-two" id="box-two">
-          <h3>Och det betyder</h3>
+    <main class="container">
+      <section class="start" id="start">
+        <div class="box-one" id="box">
+          <h3>Visste du att</h3>
           <p>
-            Det betyder att vid tillverkningen av ett par jeans, krävs 5 000
-            liter vatten, 1,2 kg kemikalieförbrukning och 9 &emsp;kg CO2e (CO2e
-            =koldioxidekvivalenter är ett mått som innefattar mängd växthusgaser
-            en produkt tillför). &emsp;&emsp;Vid tillverkningen av en klänning,
-            krävs 50 liter vatten, 1,4 kg i kemikalie- förbrukning och 15 kg
-            CO2e. &emsp;&emsp;&emsp;Det betyder också att genom att skänka dina
-            kläder istället för att slänga dem kan du göra ett mer
-            &emsp;&emsp;&emsp;&emsp;miljövänligt val.
+            Mycket av de kläder vi i Sverige konsumerar slängs och förbränns. På
+            ett år köper<br />
+            Sveriges befolkning, per person, i snitt 13 kilo nya kläder och
+            textilier, varav 8 kilo<br />
+            hamnar i soporna.<br /><br />
+            För att tillverka kläder krävs en stor mängd vatten, kemikalier och
+            koldioxid. Det krävs ca 10 000<br />
+            vatten/kg för att odla bomull, i nästan alla steg i tillverkningen
+            används kemikalier, från bekämpningsmedel<br />
+            för att förhindra skadedjur till att bleka, färga och behandla tyger
+            till kemikalier i transport för att behandla<br />
+            mögel. Klimatpåverkan för en produkt är stor, framförallt om energin
+            som används i produktionen<br />
+            kommer från fossila källor, vilket oftast är fallet.
           </p>
         </div>
-      </div>
-      <div class="box-three">
-        <h3>Se hur din förändring kan göra skillnad</h3>
-      </div>
-      <div class="arrow-button" id="button">
-        <div class="button-wrapper">
-          <button class="start-button" onclick="startGame()">
-            SPELA SPELET
+        <div class="box-wrapper">
+          <div class="box-two" id="box-two">
+            <h3>Och det betyder</h3>
+            <p>
+              Det betyder att vid tillverkningen av ett par jeans, krävs 5 000
+              liter vatten, 1,2 kg kemikalieförbrukning och 9 &emsp;kg CO2e
+              (CO2e =koldioxidekvivalenter är ett mått som innefattar mängd
+              växthusgaser en produkt tillför). &emsp;&emsp;Vid tillverkningen
+              av en klänning, krävs 50 liter vatten, 1,4 kg i kemikalie-
+              förbrukning och 15 kg CO2e. &emsp;&emsp;&emsp;Det betyder också
+              att genom att skänka dina kläder istället för att slänga dem kan
+              du göra ett mer &emsp;&emsp;&emsp;&emsp;miljövänligt val.
+            </p>
+          </div>
+        </div>
+        <div class="box-three">
+          <h3>Se hur din förändring kan göra skillnad</h3>
+        </div>
+        <div class="arrow-button" id="button">
+          <div class="button-wrapper">
+            <button class="start-button" onclick="startGame()">
+              SPELA SPELET
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="game" id="game">
+        <div>
+          <button class="stop-game" id="stop-game" onclick="stopGame()">
+            <svg
+              viewBox="0 0 69 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M61 53.0159L8 8M61 8L8 53.0159"
+                stroke="black"
+                stroke-width="15"
+                stroke-linecap="round"
+              />
+            </svg>
           </button>
         </div>
-      </div>
-    </section>
-    <section class="game" id="game">Spel</section>
-    <section class="about" id="about">
-      <div class="bjork-wrapper">
-        <div class="bjork-info">
-          <p>
-            Björkåfrihet är en ideell förening med över 50 års erfarenhet av
-            second hand och solidaritetsarbete. Genom internationellt
-            solidaritetsarbete och opinionsarbete stödjer dem organisationer som
-            arbetar mot förtryck runt om i världen. På hemmaplan ger dem stöd
-            till asylrättsrörelsen och organisationer som arbetar med
-            papperslösa människor. De har sex egna second hand butiker och
-            tillsammans med flera kommuner i sydvästra Sverige driver dem
-            kompisbutiker.
-          </p>
+      </section>
+      <section class="about" id="about">
+        <div class="bjork-wrapper">
+          <div class="bjork-info">
+            <p>
+              Björkåfrihet är en ideell förening med över 50 års erfarenhet av
+              second hand och solidaritetsarbete. Genom internationellt
+              solidaritetsarbete och opinionsarbete stödjer dem organisationer
+              som arbetar mot förtryck runt om i världen. På hemmaplan ger dem
+              stöd till asylrättsrörelsen och organisationer som arbetar med
+              papperslösa människor. De har sex egna second hand butiker och
+              tillsammans med flera kommuner i sydvästra Sverige driver dem
+              kompisbutiker.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="about-us-section">
-        <!-- KORT 1 -->
-        <div class="card">
-          <svg
-            width="334"
-            height="562"
-            viewBox="0 0 334 562"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18.5579 0L177.072 34L334 6.94433L324.393 232.018L305.425 552.433H167.444L29.7041 562V280.886L0 114L18.5579 0Z"
-              fill="#DE3831"
-            />
-          </svg>
-          <div class="pink"></div>
-          <img src="/bild.jpeg" width="100px" height="100px" />
-        </div>
-        <!-- KORT 2 -->
-        <div class="card">
-          <svg
-            width="347"
-            height="555"
-            viewBox="0 0 347 555"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.8844 0L191.911 27.053L317.5 13.5L324 222.5L287.867 390.017L346.569 545.434L248.5 533L180.311 545.434L14.3426 555L0 272.528L32.7378 104.045L20.8844 0Z"
-              fill="#DE3831"
-            />
-          </svg>
+        <div class="about-us-section">
+          <!-- KORT 1 -->
+          <div class="card">
+            <svg
+              width="334"
+              height="562"
+              viewBox="0 0 334 562"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.5579 0L177.072 34L334 6.94433L324.393 232.018L305.425 552.433H167.444L29.7041 562V280.886L0 114L18.5579 0Z"
+                fill="#DE3831"
+              />
+            </svg>
+            <div class="pink"></div>
+            <img src="/bild.jpeg" width="100px" height="100px" />
+          </div>
+          <!-- KORT 2 -->
+          <div class="card">
+            <svg
+              width="347"
+              height="555"
+              viewBox="0 0 347 555"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.8844 0L191.911 27.053L317.5 13.5L324 222.5L287.867 390.017L346.569 545.434L248.5 533L180.311 545.434L14.3426 555L0 272.528L32.7378 104.045L20.8844 0Z"
+                fill="#DE3831"
+              />
+            </svg>
 
-          <div class="pink"></div>
-          <img src="/bild.jpeg" width="100px" height="100px" />
-        </div>
-        <!-- KORT 3 -->
-        <div class="card">
-          <svg
-            width="323"
-            height="552"
-            viewBox="0 0 323 552"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M35.5 0H154.565L285.774 38.9694L302.936 231.836L322.5 383.5L283.893 552H145.37L20.5336 532.5V435.5L0.31134 283.5L20.5336 123.903L35.5 0Z"
-              fill="#DE3831"
-            />
-          </svg>
+            <div class="pink"></div>
+            <img src="/bild.jpeg" width="100px" height="100px" />
+          </div>
+          <!-- KORT 3 -->
+          <div class="card">
+            <svg
+              width="323"
+              height="552"
+              viewBox="0 0 323 552"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M35.5 0H154.565L285.774 38.9694L302.936 231.836L322.5 383.5L283.893 552H145.37L20.5336 532.5V435.5L0.31134 283.5L20.5336 123.903L35.5 0Z"
+                fill="#DE3831"
+              />
+            </svg>
 
-          <div class="pink"></div>
-          <img src="/bild.jpeg" width="100px" height="100px" />
-        </div>
-        <!-- KORT 4 -->
-        <div class="card">
-          <svg
-            width="302"
-            height="562"
-            viewBox="0 0 302 562"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.5 0L120 19L281.34 0L301.5 67.5V266V524L275.789 547.563L120 562L12.5 535.5L29.0398 326.593L12.5 133L0.5 67.5L12.5 0Z"
-              fill="#DE3831"
-            />
-          </svg>
+            <div class="pink"></div>
+            <img src="/bild.jpeg" width="100px" height="100px" />
+          </div>
+          <!-- KORT 4 -->
+          <div class="card">
+            <svg
+              width="302"
+              height="562"
+              viewBox="0 0 302 562"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.5 0L120 19L281.34 0L301.5 67.5V266V524L275.789 547.563L120 562L12.5 535.5L29.0398 326.593L12.5 133L0.5 67.5L12.5 0Z"
+                fill="#DE3831"
+              />
+            </svg>
 
-          <div class="pink"></div>
-          <img src="/bild.jpeg" width="100px" height="100px" />
+            <div class="pink">
+              <h4>Sophie Wulff</h4>
+              <p>
+                Jag är webbutveklare och har jobbat med hemsidan efter designen
+                som Linnea skapat, samt publicerat den. Lalal lalalla
+                llalalallala lalla lallala
+              </p>
+              <a href="https://github.com/sowulff">Min Github</a>
+            </div>
+            <img src="/bild.jpeg" width="100px" height="100px" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>

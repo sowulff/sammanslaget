@@ -5,13 +5,12 @@ const about = document.getElementById("about");
 const box = document.getElementById("box");
 
 function startGame() {
-  //   start.style.display = "none";
+  start.style.display = "none";
   game.style.display = "block";
-  //   about.scrollIntoView();
 }
 
-// {
-//   console.log("klick");
-//   button.style.transform = "translateX(10px)";
-//   leftItem.style.transform = "rotate(" + window.pageYOffset + "deg)";
-// });
+function stopGame() {
+  start.style.display = "block";
+  game.style.display = "none";
+  start.scrollIntoView();
+}

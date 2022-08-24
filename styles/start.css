@@ -1,0 +1,35 @@
+.box-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.box-one {
+  clip-path: polygon(0 0, 86% 10%, 100% 95%, 0% 100%);
+  background-color: var(--blue);
+  width: 80%;
+  padding: 1rem 0rem 2rem 2rem;
+  position: relative;
+}
+.box-two {
+  clip-path: polygon(48% 5%, 100% 0, 100% 100%, 9% 100%, 0 25%);
+  background-color: var(--yellow);
+  width: 80%;
+  padding: 1rem 1rem 2rem 4rem;
+  margin-right: 0;
+  position: absolute;
+  top: 21rem;
+}
+.box-two h3 {
+  text-align: right;
+}
+.box-three {
+  clip-path: polygon(42% 1%, 89% 6%, 100% 99%, 0 100%, 0 4%);
+  background-color: var(--pink);
+  width: 90%;
+  padding: 2rem;
+  margin-top: 15rem;
+  position: relative;
+}
+.start {
+  padding-bottom: 2rem;
+  /* height: 100vh; */
+}

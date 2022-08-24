@@ -1,0 +1,8 @@
+.game {
+  background-color: green;
+  display: none;
+}
+.game svg {
+  width: 50px;
+  padding: 1rem;
+}
