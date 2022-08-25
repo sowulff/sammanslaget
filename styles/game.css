@@ -9,7 +9,6 @@
 }
 .game-frame {
   height: 90vh;
-
   display: flex;
   justify-content: center;
 }
@@ -25,4 +24,11 @@
   cursor: pointer;
   padding: 2rem;
   font-family: "Jua";
+}
+.game-splain {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83%;
 }

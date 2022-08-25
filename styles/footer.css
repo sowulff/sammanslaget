@@ -1,3 +1,14 @@
 footer {
   background-color: var(--background);
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: var(--red);
+}
