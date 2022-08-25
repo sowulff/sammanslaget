@@ -7,7 +7,7 @@
 .bjork-info {
   background-color: var(--yellow);
   clip-path: polygon(5% 6%, 95% 0, 99% 100%, 0% 100%);
-  padding: 4rem;
+  padding: 2rem 4rem 4rem 4rem;
   width: 95%;
   border-radius: 10px;
 }
@@ -44,25 +44,37 @@ svg {
   justify-content: center;
   width: 100%;
   height: 65%;
-  padding: 2rem 6rem 2rem 6rem;
+  padding: 1rem 6rem 2rem 6rem;
 }
-img {
+.card img {
   border-radius: 50%;
   position: absolute;
   right: 25%;
   top: 3%;
 }
 
-@media screen and (max-width: 1345px) {
+@media screen and (max-width: 1050px) {
   svg {
     display: none;
   }
-  img {
-    display: none;
+  .about-us-section {
+    width: 100%;
+    padding: 3rem 1rem 0.5rem 1rem;
+    justify-content: space-between;
   }
   .pink {
+    width: 90%;
+    height: 80%;
     position: initial;
-    width: 100%;
-    padding: 1rem;
+    top: 12%;
+    right: 22%;
+    border-radius: 10px;
+    padding: 5.5rem 1rem;
+  }
+  .pink p {
+  }
+  .card img {
+    right: 15%;
+    top: -10%;
   }
 }

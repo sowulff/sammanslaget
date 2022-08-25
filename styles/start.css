@@ -1,3 +1,11 @@
+.name-head {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "Playfair text";
+  font-size: 32px;
+  background-color: var(--background);
+}
 .box-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -5,28 +13,29 @@
 .box-one {
   clip-path: polygon(0 0, 86% 10%, 100% 95%, 0% 100%);
   background-color: var(--blue);
-  width: 80%;
-  padding: 1rem 0rem 2rem 2rem;
+  width: 85%;
+  padding: 1rem 7rem 2rem 2rem;
   position: relative;
 }
 .box-two {
   clip-path: polygon(48% 5%, 100% 0, 100% 100%, 9% 100%, 0 25%);
   background-color: var(--yellow);
   width: 80%;
-  padding: 1rem 1rem 2rem 4rem;
+  padding: 1rem 1rem 2rem 6rem;
   margin-right: 0;
   position: absolute;
-  top: 21rem;
+  top: 22.5rem;
 }
 .box-two h3 {
   text-align: right;
 }
+
 .box-three {
   clip-path: polygon(42% 1%, 89% 6%, 100% 99%, 0 100%, 0 4%);
   background-color: var(--pink);
   width: 90%;
   padding: 2rem;
-  margin-top: 15rem;
+  top: 16rem;
   position: relative;
 }
 .mobile {
@@ -37,7 +46,10 @@
   /* height: 100vh; */
 }
 
-@media screen and (max-width: 1345px) {
+@media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 32px;
+  }
   .box-one,
   .box-two,
   .box-three {
@@ -51,6 +63,9 @@
   .box-two {
     position: initial;
     padding-left: 2rem;
+  }
+  .box-two h3 {
+    text-align: start;
   }
   .box-three {
     position: initial;
@@ -69,5 +84,7 @@
   .start {
     align-items: center;
     justify-content: space-evenly;
+    padding: 0rem 3rem 0rem 3rem;
+    height: 80vh;
   }
 }

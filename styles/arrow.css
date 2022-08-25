@@ -1,22 +1,14 @@
 .arrow-button {
-  clip-path: polygon(
-    0 32%,
-    60% 24%,
-    60% 0%,
-    100% 48%,
-    60% 100%,
-    60% 74%,
-    0 67%
-  );
+  clip-path: polygon(0 35%, 60% 27%, 60% 5%, 100% 50%, 60% 96%, 60% 73%, 0 69%);
   display: flex;
   justify-content: center;
   background-color: var(--arrow);
   width: 20rem;
   padding: 1.5rem;
-  transform: rotate(-25deg);
+  transform: rotate(-15deg);
   position: absolute;
-  right: 4.5rem;
-  top: 34rem;
+  right: 3rem;
+  top: 35rem;
   transition: ease-in 0.2s;
 }
 .arrow-button:hover {
@@ -32,10 +24,11 @@
   font: inherit;
   cursor: pointer;
   padding: 3rem 0;
-  font-size: 26px;
+  font-size: 32px;
+  font-family: "Jua";
 }
 
-@media screen and (max-width: 1345px) {
+@media screen and (max-width: 1050px) {
   .arrow-button {
     display: none;
   }

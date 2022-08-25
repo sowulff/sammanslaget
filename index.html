@@ -9,42 +9,50 @@
     <link rel="stylesheet" href="styles/arrow.css" />
     <link rel="stylesheet" href="styles/game.css" />
     <link rel="stylesheet" href="styles/start.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>Sammanslaget</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+    </style>
   </head>
   <body>
     <main class="container">
+      <div class="name-head">
+        <h1>Gör det lilla, för det stora</h1>
+      </div>
       <section class="start" id="start">
         <div class="box-one" id="box">
           <h3>Visste du att</h3>
           <p>
             Mycket av de kläder vi i Sverige konsumerar slängs och förbränns. På
-            ett år köper<br />
-            Sveriges befolkning, per person, i snitt 13 kilo nya kläder och
-            textilier, varav 8 kilo<br />
-            hamnar i soporna.<br /><br />
+            ett år köper Sveriges befolkning i snitt 13 kilo nya kläder och
+            textilier per person, varav 8 kilo hamnar i soporna.<br /><br />
             För att tillverka kläder krävs en stor mängd vatten, kemikalier och
-            koldioxid. Det krävs ca 10 000<br />
-            vatten/kg för att odla bomull, i nästan alla steg i tillverkningen
-            används kemikalier, från bekämpningsmedel<br />
-            för att förhindra skadedjur till att bleka, färga och behandla tyger
-            till kemikalier i transport för att behandla<br />
+            koldioxid. Det krävs ca 10 000 vatten/kg för att odla bomull och i
+            nästan alla steg i tillverkningen används kemikalier, från
+            bekämpningsmedel för att förhindra skadedjur till att bleka, färga
+            och behandla tyger till kemikalier i transport för att behandla
             mögel. Klimatpåverkan för en produkt är stor, framförallt om energin
-            som används i produktionen<br />
-            kommer från fossila källor, vilket oftast är fallet.
+            som används i produktionen kommer från fossila källor, vilket oftast
+            är fallet.
           </p>
         </div>
         <div class="box-wrapper">
           <div class="box-two" id="box-two">
             <h3>Och det betyder</h3>
+
             <p>
               Det betyder att vid tillverkningen av ett par jeans, krävs 5 000
-              liter vatten, 1,2 kg kemikalieförbrukning och 9 &emsp;kg CO2e
-              (CO2e =koldioxidekvivalenter är ett mått som innefattar mängd
-              växthusgaser en produkt tillför). &emsp;&emsp;Vid tillverkningen
-              av en klänning, krävs 50 liter vatten, 1,4 kg i kemikalie-
-              förbrukning och 15 kg CO2e. &emsp;&emsp;&emsp;Det betyder också
-              att genom att skänka dina kläder istället för att slänga dem kan
-              du göra ett mer &emsp;&emsp;&emsp;&emsp;miljövänligt val.
+              liter vatten, 1,2 kg kemikalieförbrukning och 9 kg CO2e (
+              koldioxidekvivalenter som är ett mått som innefattar mängd
+              växthusgaser en produkt tillför). Vid tillverkningen av en
+              klänning, krävs 50 liter vatten, 1,4 kg i kemikalie- förbrukning
+              och 15 kg CO2e.<br /><br />
+              Det betyder också att genom att skänka dina kläder istället för
+              att slänga dem kan du göra ett mer miljövänligt val.
             </p>
           </div>
         </div>
@@ -79,28 +87,30 @@
             </svg>
           </button>
         </div>
-
-        <iframe
-          mozallowfullscreen="true"
-          allow="autoplay; fullscreen"
-          src="/Sammanslagningen/index.html"
-          style="border: 0px #000000 none"
-          name="Change your furniture"
-          scrolling="no"
-          msallowfullscreen="true"
-          allowfullscreen="true"
-          webkitallowfullscreen="true"
-          allowtransparency="true"
-          frameborder="0"
-          marginheight="px"
-          marginwidth="320px"
-          height="560px"
-          width="1200px"
-        ></iframe>
+        <div class="game-frame">
+          <iframe
+            mozallowfullscreen="true"
+            allow="autoplay; fullscreen"
+            src="/Sammanslagningen/index.html"
+            style="border: 0px #000000 none"
+            name="Change your furniture"
+            scrolling="no"
+            msallowfullscreen="true"
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            allowtransparency="true"
+            frameborder="0"
+            marginheight="px"
+            marginwidth="320px"
+            height="560px"
+            width="1200px"
+          ></iframe>
+        </div>
       </section>
       <section class="about" id="about">
         <div class="bjork-wrapper">
           <div class="bjork-info">
+            <img class="logo-img" src="/logga.png" width="300px" />
             <p>
               Björkåfrihet är en ideell förening med över 50 års erfarenhet av
               second hand och solidaritetsarbete. Genom internationellt
@@ -196,6 +206,22 @@
           </div>
         </div>
       </section>
+      <footer>
+        <div>
+          <p>
+            Ett sammarbete mellan
+            <a href="https://bjorkafrihet.se/">Björk & frihet</a> och
+            <a href="https://www.yrgo.se/">Yrgo</a>.
+          </p>
+          <p>
+            Källhänvisning:
+            <a
+              href="https://www.naturskyddsforeningen.se/faktablad/vara-klader/"
+              >Naturskyddsföreningen</a
+            >
+          </p>
+        </div>
+      </footer>
     </main>
     <script src="app.js"></script>
   </body>
