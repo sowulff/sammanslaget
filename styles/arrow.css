@@ -34,3 +34,9 @@
   padding: 3rem 0;
   font-size: 26px;
 }
+
+@media screen and (max-width: 1345px) {
+  .arrow-button {
+    display: none;
+  }
+}

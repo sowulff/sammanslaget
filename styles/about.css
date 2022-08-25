@@ -1,7 +1,7 @@
 .bjork-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   height: 35%;
 }
 .bjork-info {
@@ -51,4 +51,18 @@ img {
   position: absolute;
   right: 25%;
   top: 3%;
+}
+
+@media screen and (max-width: 1345px) {
+  svg {
+    display: none;
+  }
+  img {
+    display: none;
+  }
+  .pink {
+    position: initial;
+    width: 100%;
+    padding: 1rem;
+  }
 }

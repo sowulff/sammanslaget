@@ -29,7 +29,45 @@
   margin-top: 15rem;
   position: relative;
 }
+.mobile {
+  display: none;
+}
 .start {
   padding-bottom: 2rem;
   /* height: 100vh; */
+}
+
+@media screen and (max-width: 1345px) {
+  .box-one,
+  .box-two,
+  .box-three {
+    clip-path: unset;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .box-wrapper {
+    justify-content: center;
+  }
+  .box-two {
+    position: initial;
+    padding-left: 2rem;
+  }
+  .box-three {
+    position: initial;
+    margin-top: 0;
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .start {
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
