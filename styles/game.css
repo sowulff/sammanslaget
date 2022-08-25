@@ -1,14 +1,28 @@
 .game {
   background-color: var(--background);
   display: none;
+  height: auto;
 }
 .game svg {
-  width: 50px;
+  width: 70px;
   padding: 1rem;
 }
 .game-frame {
   height: 90vh;
+
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+.stop-wrapper {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.stop-game {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 2rem;
+  font-family: "Jua";
 }

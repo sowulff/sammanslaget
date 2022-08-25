@@ -79,7 +79,9 @@ svg {
 }
 @media screen and (max-width: 850px) {
   section {
-    height: unset;
+    height: auto;
+  }
+  .start {
   }
   .card {
     width: 100%;

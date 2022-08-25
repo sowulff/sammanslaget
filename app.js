@@ -6,11 +6,13 @@ const box = document.getElementById("box");
 
 function startGame() {
   start.style.display = "none";
+  about.style.display = "none";
   game.style.display = "block";
 }
 
 function stopGame() {
   start.style.display = "block";
+  about.style.display = "block";
   game.style.display = "none";
   start.scrollIntoView();
 }
