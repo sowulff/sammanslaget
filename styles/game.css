@@ -1,14 +1,13 @@
 .game {
   background-color: var(--background);
   display: none;
-  height: auto;
+  height: 100vh;
 }
 .game svg {
   width: 70px;
   padding: 1rem;
 }
 .game-frame {
-  height: 90vh;
   display: flex;
   justify-content: center;
 }
