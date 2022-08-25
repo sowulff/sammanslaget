@@ -71,10 +71,41 @@ svg {
     border-radius: 10px;
     padding: 5.5rem 1rem;
   }
-  .pink p {
-  }
+
   .card img {
     right: 15%;
     top: -10%;
+  }
+}
+@media screen and (max-width: 850px) {
+  section {
+    height: unset;
+  }
+  .card {
+    width: 100%;
+    padding: 0.2rem;
+  }
+  .pink {
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .pink p {
+    font-size: 14px;
+  }
+  .about-us-section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .card:last-of-type img {
+    right: 16%;
+  }
+  .card img {
+    display: none;
+  }
+  .logo-img {
+    width: 200px;
+  }
+  .bjork-info {
+    padding: 1rem 2rem 1rem 2rem;
   }
 }
