@@ -53,6 +53,35 @@ svg {
   top: 3%;
 }
 
+@media screen and (max-width: 1350px) {
+  .pink {
+    width: 70%;
+    right: 19%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  svg {
+    display: none;
+  }
+  .about-us-section {
+    width: 100%;
+    padding: 3rem 1rem 0.5rem 1rem;
+    justify-content: space-between;
+  }
+  .pink {
+    width: 90%;
+    height: 80%;
+    position: initial;
+    top: 12%;
+    right: 22%;
+    border-radius: 10px;
+    padding: 5.5rem 1rem;
+  }
+  .card img {
+    right: 15%;
+    top: -10%;
+  }
+}
 @media screen and (max-width: 1050px) {
   svg {
     display: none;
