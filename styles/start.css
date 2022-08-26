@@ -14,7 +14,7 @@
   clip-path: polygon(0 0, 86% 10%, 100% 95%, 0% 100%);
   background-color: var(--blue);
   width: 85%;
-  padding: 1rem 7rem 2rem 2rem;
+  padding: 1rem 8rem 2rem 2rem;
   position: relative;
 }
 .box-two {
