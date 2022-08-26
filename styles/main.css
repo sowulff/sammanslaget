@@ -39,7 +39,7 @@
 }
 
 section {
-  height: 100vh;
+  height: 110vh;
   background-color: var(--background);
   display: flex;
   flex-direction: column;
